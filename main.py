@@ -7,6 +7,6 @@ symbol = "qwertyuiop[]asdfghjkl;'zxcvbnm,./1234567890-=QWERTYUIOP{}ASDFGHJKL:ZXC
 password = ""
 
 for x in range(length):
-    password += symbol[ran.randint(0,len(symbol))]
+    password += symbol[ran.randint(0,len(symbol) -1)]
 
 print(password)
